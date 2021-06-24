@@ -1,9 +1,0 @@
-In many real world applications the amount of labelled training data will be very limited since it is expensive to obtain. However, you will often have access to a large amount of unlabelled data. In this project I have explore techniques to leverage large amounts of unlabelled data to learn image representations. SimCLR is a framework for contrastive learning of visual representations. It learns representations by maximizing agreement between differently augmented views of the same data example via a contrastive loss in the latent space. This implementation is done by using the following resouces and adapting them to the given dataset.
-
-SimCLR paper: https://arxiv.org/pdf/2002.05709.pdf
-
-simCLR short video: https://www.youtube.com/watch?v=YZgeWsuyRH8&ab_channel=AIBites
-
-simCLR pytorch implementation: https://github.com/ae-foster/pytorch-simclr
-
-creadit for the images: https://amitness.com/2020/03/illustrated-simclr/
